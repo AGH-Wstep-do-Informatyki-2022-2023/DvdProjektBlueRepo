@@ -9,5 +9,3 @@
 ## Użyte narzędzia/technologie
 
 ## Przydatne linki
-
-test z VSC - Wojto
