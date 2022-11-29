@@ -14,3 +14,6 @@ Dla dobra projektu i możliwości jego swobodnego dalszego rozwoju zdecydowaliś
 - Jakże przydatna biblioteka, dzięki której mogliśmy stworzyć tę grę: [Pygame](https://www.pygame.org)
 - Szeroka dokumentacja dostępna na serwisie [Youtube](https://youtube.com)
 ## Przydatne linki
+
+## Geeks for geeks
+[GeeksforGeeks](https://www.geeksforgeeks.org/)
