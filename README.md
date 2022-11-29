@@ -2,6 +2,8 @@
 
 ## Koncept gry
 
+Gra wzorowana na Space Invaders z elementami humorystycznymi. Zachęcamy do śledzenia rozwoju naszej gry.
+
 ## Informacja o autorach
 
 <details><summary> Licencja</summary>
