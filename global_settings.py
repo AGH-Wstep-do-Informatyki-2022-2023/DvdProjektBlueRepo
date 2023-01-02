@@ -1,6 +1,6 @@
 class Window:
-    WIDTH = 800
-    HEIGHT = 600
+    WIDTH = 1920
+    HEIGHT = 1080
     FPS = 60
 
 
