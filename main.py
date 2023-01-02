@@ -20,6 +20,8 @@ RED = Colors.RED
 GREEN = Colors.GREEN
 BLUE = Colors.BLUE
 
+clock.tick(FPS)
+
 # Stworzenie okna gry
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Penguin Invaders")
@@ -73,7 +75,7 @@ while running:
     screen.fill(BLACK)
     all_sprites.draw(screen)
     pygame.display.flip()
-    clock.tick(FPS)
+    
 # Zegar
 clock = pygame.time.Clock()
 pygame.quit()
