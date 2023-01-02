@@ -1,7 +1,9 @@
 import pygame
 
-from global_settings.Window import *
-from global_settings.Colors import *
+import global_settings
+
+#from global_settings.Window import *
+#from global_settings.Colors import *
 
 
 class Bullet(pygame.sprite.Sprite):    
