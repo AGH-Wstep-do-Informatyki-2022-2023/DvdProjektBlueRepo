@@ -1,6 +1,7 @@
 import pygame
+from global_settings import Window, Colors
 
-import global_settings
+WHITE = Colors.WHITE
 
 #from global_settings.Window import *
 #from global_settings.Colors import *
