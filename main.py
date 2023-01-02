@@ -14,6 +14,12 @@ WIDTH = Window.WIDTH
 HEIGHT = Window.HEIGHT
 FPS = Window.FPS
 
+WHITE = Colors.WHITE
+BLACK = Colors.BLACK
+RED = Colors.RED
+GREEN = Colors.GREEN
+BLUE = Colors.BLUE
+
 # Stworzenie okna gry
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Penguin Invaders")
