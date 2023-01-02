@@ -1,4 +1,11 @@
 import pygame
+from global_settings import Window, Colors
+
+WIDTH = Window.WIDTH
+HEIGHT = Window.HEIGHT
+FPS = Window.FPS
+BLACK = Colors.BLACK
+WHITE = Colors.WHITE
 
 class GameMenu:
     def __init__(self, screen):
