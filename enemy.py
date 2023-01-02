@@ -1,3 +1,5 @@
+import pygame
+import random
 from global_settings import Window, Colors
 
 WIDTH = Window.WIDTH
