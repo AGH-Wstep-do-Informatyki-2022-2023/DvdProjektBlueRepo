@@ -20,6 +20,7 @@ RED = Colors.RED
 GREEN = Colors.GREEN
 BLUE = Colors.BLUE
 
+clock = pygame.time.Clock()
 clock.tick(FPS)
 
 # Stworzenie okna gry
@@ -76,6 +77,4 @@ while running:
     all_sprites.draw(screen)
     pygame.display.flip()
     
-# Zegar
-clock = pygame.time.Clock()
 pygame.quit()
