@@ -1,3 +1,5 @@
+from global_settings.Window import *
+from global_settings.Colors import *
 # Klasa gracza
 class Player(pygame.sprite.Sprite):
     def __init__(self):

@@ -4,14 +4,15 @@ from bullet import Bullet
 from menu import GameMenu
 from gracz import Player
 from enemy import Enemy
+from global_settings import Window, Colors
  
 # Inicjalizacja Pygame
 pygame.init()
  
 # Ustawienia gry
-WIDTH = 800
-HEIGHT = 600
-FPS = 60
+WIDTH = Window.WIDTH
+HEIGHT = Window.HEIGHT
+FPS = Window.FPS
 
 # Stworzenie okna gry
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
