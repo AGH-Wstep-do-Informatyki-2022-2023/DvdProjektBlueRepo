@@ -1,5 +1,8 @@
-from global_settings.Window import *
-from global_settings.Colors import *
+from global_settings import Window, Colors
+
+WIDTH = Window.WIDTH
+HEIGHT = Window.HEIGHT
+RED = Colors.RED
 
 class Enemy(pygame.sprite.Sprite):
     def __init__(self):
