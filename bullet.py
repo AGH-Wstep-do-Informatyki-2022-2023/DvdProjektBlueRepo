@@ -1,3 +1,5 @@
+import pygame
+
 from global_settings.Window import *
 from global_settings.Colors import *
 
