@@ -1,3 +1,4 @@
+from global_settings import *
 # Klasa gracza
 class Player(pygame.sprite.Sprite):
     def __init__(self):
