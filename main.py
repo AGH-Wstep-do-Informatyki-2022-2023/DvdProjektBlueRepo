@@ -15,5 +15,4 @@ pygame.display.set_caption("Penguin Invaders")
 
 # Zegar
 clock = pygame.time.Clock()
- 
 pygame.quit()
