@@ -30,3 +30,6 @@ class Player(pygame.sprite.Sprite):
             self.rect.left = 0
 
 # dopisuje.exe
+# cokoliwek dposiane 2
+
+# test konfliktu
