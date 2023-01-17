@@ -33,5 +33,6 @@ class Player(pygame.sprite.Sprite):
 # cokoliwek dposiane 2
 
 # test konfliktu
-# konflikt po raz 4
 ##3
+### 4    wwewwefwefefwefefw
+#sfewfwef
