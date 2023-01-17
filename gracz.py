@@ -30,8 +30,20 @@ class Player(pygame.sprite.Sprite):
             self.rect.left = 0
 
 # dopisuje.exe
+
+#konflikt pawła
+
 # cokoliwek dposiane 2
 
 # test konfliktu
+<<<<<<< HEAD
 # konflikt po raz 4
 ##3 ....
+=======
+
+for i in range(2):
+    continue
+##3
+### 4    wwewwefwefefwefefw
+#sfewfwef
+>>>>>>> e6a0c94644506ab858f62f476b48f25b8ca57ce3
