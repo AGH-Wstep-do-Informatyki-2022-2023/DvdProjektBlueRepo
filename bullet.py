@@ -23,5 +23,10 @@ class Bullet(pygame.sprite.Sprite):
         if self.rect.bottom < 0:
             self.kill()
 
+
 ####################
 #Komentarz, który ma wywołać konflikt
+
+#######################
+#test
+
