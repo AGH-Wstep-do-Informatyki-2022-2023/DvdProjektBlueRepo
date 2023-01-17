@@ -9,7 +9,8 @@ GREEN = Colors.GREEN
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("/img/gates.png")
+        self.image = pygame.image.load("img/gates.png")
+        self.image = pygame.transform.scale(self.image, (75, 75))
         self.rect = self.image.get_rect()
         self.rect.centerx = WIDTH / 2
         self.rect.bottom = HEIGHT - 10

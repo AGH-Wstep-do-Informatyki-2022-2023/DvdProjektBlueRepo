@@ -9,7 +9,8 @@ RED = Colors.RED
 class Enemy(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
-        self.image = pygame.image.load("/img/penguin.png")
+        self.image = pygame.image.load("img/penguin.png")
+        self.image = pygame.transform.scale(self.image, (100, 100))
         self.rect = self.image.get_rect()
         self.rect.x = random.randrange(WIDTH - self.rect.width)
         self.rect.y = random.randrange(-100, -40)
