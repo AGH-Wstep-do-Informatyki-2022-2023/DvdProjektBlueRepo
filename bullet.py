@@ -22,3 +22,6 @@ class Bullet(pygame.sprite.Sprite):
         # Jeśli pocisk wyjdzie poza ekran, usuwamy go z grupy
         if self.rect.bottom < 0:
             self.kill()
+
+####################
+#Komentarz, który ma wywołać konflikt
