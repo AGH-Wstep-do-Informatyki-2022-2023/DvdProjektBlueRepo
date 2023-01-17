@@ -37,4 +37,5 @@ class Player(pygame.sprite.Sprite):
 
 # test konfliktu
 ##3
-
+### 4    wwewwefwefefwefefw
+#sfewfwef
