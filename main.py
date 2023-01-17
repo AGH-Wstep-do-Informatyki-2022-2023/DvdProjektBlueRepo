@@ -42,39 +42,40 @@ for i in range(8):
     enemies.add(enemy)
     all_sprites.add(enemy)
 
-# Pętla główna gry
-menu = GameMenu(screen)
-menu.run()
-running = True
-while running:
-    # Sprawdzanie wydarzeń
-    for event in pygame.event.get():       
-        if event.type == pygame.QUIT:
+while True:
+    # Pętla główna gry
+    menu = GameMenu(screen)
+    menu.run()
+    running = True
+    while running:
+        # Sprawdzanie wydarzeń
+        for event in pygame.event.get():       
+            if event.type == pygame.QUIT:
+                running = False
+            elif event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_SPACE:
+                    bullet = Bullet(player.rect.centerx, player.rect.top)
+                    all_sprites.add(bullet)
+                    bullets.add(bullet)
+
+        # Aktualizacja
+        all_sprites.update()
+
+        # Sprawdzenie, czy pocisk trafił wroga
+        hits = pygame.sprite.groupcollide(enemies, bullets, True, True)
+        for hit in hits:
+            enemy = Enemy()
+            all_sprites.add(enemy)
+            enemies.add(enemy)
+
+        # Sprawdzenie, czy gracz trafił wroga
+        hits = pygame.sprite.spritecollide(player, enemies, False)
+        if hits:
             running = False
-        elif event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE:
-                bullet = Bullet(player.rect.centerx, player.rect.top)
-                all_sprites.add(bullet)
-                bullets.add(bullet)
 
-    # Aktualizacja
-    all_sprites.update()
-
-    # Sprawdzenie, czy pocisk trafił wroga
-    hits = pygame.sprite.groupcollide(enemies, bullets, True, True)
-    for hit in hits:
-        enemy = Enemy()
-        all_sprites.add(enemy)
-        enemies.add(enemy)
-
-    # Sprawdzenie, czy gracz trafił wroga
-    hits = pygame.sprite.spritecollide(player, enemies, False)
-    if hits:
-        running = False
-
-    # Rysowanie ekranu
-    screen.fill(BLACK)
-    all_sprites.draw(screen)
-    pygame.display.flip()
-    
+        # Rysowanie ekranu
+        screen.fill(BLACK)
+        all_sprites.draw(screen)
+        pygame.display.flip()
+        
 pygame.quit()
