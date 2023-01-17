@@ -34,3 +34,4 @@ class Player(pygame.sprite.Sprite):
 
 # test konfliktu
 # konflikt po raz 4
+##3
